@@ -4,7 +4,7 @@
 
 
 
-## 프로젝트 개요
+## :date: 프로젝트 개요
 
 **진행기간**: 2021.11.19 ~ 2021.11.25
 
@@ -22,7 +22,7 @@
 
 
 
-## 주요기능
+## :hammer: 주요기능
 
 **회원가입**
 
@@ -89,12 +89,10 @@
 
 - Spring Boot
 - Mysql
-
 - MyBatis
 
 
-
-## 페이지 소개
+## :bookmark_tabs: 페이지 소개
 
 ![회원가입](https://user-images.githubusercontent.com/69693631/144235679-a9149370-b5ce-4198-824f-43e536627af5.png)
 ![로그인](https://user-images.githubusercontent.com/69693631/144235797-25e5beaf-8d74-4c52-9823-86bd0f1d2395.png)
