@@ -74,7 +74,7 @@
 
 ## 사용 기술
 
-Frontend
+**Frontend**
 
 -  axios: 0.24.0
 -  core-js: 3.6.5
@@ -84,7 +84,7 @@ Frontend
 -  vuex: 3.4.0
 -  vuex-persistedstate: 4.1.0
 
-Bakend 
+**Bakend** 
 
 - Spring Boot
 - Mysql
