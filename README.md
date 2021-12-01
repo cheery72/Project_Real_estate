@@ -100,5 +100,5 @@
 ![회원수정](https://user-images.githubusercontent.com/69693631/144235914-bda92203-716d-4868-9db8-b7b5e8290667.png)
 ![아파트검색](https://user-images.githubusercontent.com/69693631/144235883-8630afa1-8cbf-440f-b08a-af6610b66456.png)
 ![즐겨찾기](https://user-images.githubusercontent.com/69693631/144235956-1f544660-0d2e-497d-b4d7-329469a8a1c3.png)
-![게시글](https://user-images.githubusercontent.com/69693631/144236836-36c53e76-c99c-4a22-bdf0-bc430b005b5a.png)
-![댓글](https://user-images.githubusercontent.com/69693631/144236902-9f27111e-9f8e-4ca1-8ef0-322e123284f8.png)
+![게시글](https://user-images.githubusercontent.com/69693631/144241871-518c78d6-8a33-4e21-a793-e034b83f8bb0.png)
+![댓글](https://user-images.githubusercontent.com/69693631/144241877-056a2aa0-0e31-4f33-9655-554507554aa8.png)
