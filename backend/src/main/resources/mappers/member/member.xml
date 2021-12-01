@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.mapper.member.MemberMapper">
+    <select id="login" parameterType="memberDto" resultType="memberDto">
+        select userName, userId, email
+        from user
+        where userId = #{userId} and userPwd = #{userPwd} and delFlag=0
+    </select>
+
+    <select id="userInfo" parameterType="String" resultType="memberDto">
+        select userName, userId, userPwd, email, joinDate
+        from user
+        where userId = #{userId}
+    </select>
+
+    <!-- 회원가입 -->
+    <insert id="registerMember" parameterType="MemberDto">
+        insert into user (userId, userPwd, userName, email)
+        values (#{userId}, #{userPwd}, #{userName}, #{email})
+    </insert>
+
+    <!-- idCheck -->
+    <select id="idCheck" parameterType="string" resultType="int">
+        select count(userId)
+        from user
+        where userId = #{id}
+    </select>
+
+    <!-- 회원 정보 수정 -->
+    <update id="modifyInfo" parameterType="MemberDto">
+        update user
+        set userPwd=#{userPwd}, username=#{userName}, email=#{email}
+        where userId = #{userId}
+    </update>
+
+    <delete id="deleteMember" parameterType="String">
+
+        update user
+        set delFlag = 1
+        where userId = #{userId}
+
+    </delete>
+
+</mapper>

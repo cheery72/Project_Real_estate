@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.mapper.board.BoardMapper">
+    <insert id="regBoard" parameterType="boardDto">
+        insert into board(userId, content, likes, regDate,aptCode)
+        values (#{userId}, #{content},0,now(),#{aptCode});
+
+        <selectKey keyProperty="bno" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <select id="getBoard" parameterType="int" resultType="boardDto">
+        select *
+        from board
+        where aptCode = #{aptCode};
+    </select>
+
+    <update id="modBoard" parameterType="map">
+        update board
+        set content = #{content}
+        where userId = #{userId} and aptCode = #{aptCode} and bno = #{bno};
+    </update>
+
+    <delete id="delBoard" parameterType="map">
+        delete
+        from board
+        where userId = #{userId} and bno = #{bno};
+    </delete>
+
+</mapper>

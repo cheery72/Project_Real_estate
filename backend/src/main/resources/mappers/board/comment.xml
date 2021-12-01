@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.happyhouse.model.mapper.board.CommentMapper">
+    <insert id="regComment" parameterType="commentDto">
+        insert into board_comment(userId, comments, likes, regDate,bno)
+        values (#{userId}, #{comments},0,now(),#{bno});
+
+        <selectKey keyProperty="rno" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+    <select id="getComment" parameterType="map" resultType="commentDto">
+        select *
+        from board_comment
+        where bno = #{bno};
+    </select>
+
+    <update id="modComment" parameterType="map">
+        update board_comment
+        set comments = #{comments}
+        where userId = #{userId} and rno = #{rno};
+    </update>
+
+    <delete id="delComment" parameterType="map">
+        delete
+        from board_comment
+        where userId = #{userId} and rno = #{rno};
+    </delete>
+</mapper>
