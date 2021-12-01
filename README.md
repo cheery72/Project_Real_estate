@@ -19,6 +19,9 @@
 
 - 각각의 아파트마다 리뷰와 소통을 위해서 게시글 & 댓글 기능을 제공한다.
 
+## :raising_hand: 팀원소개
+- Github: @cherrymaru
+- Github: @cheery72
 
 ## :hammer: 주요기능
 
