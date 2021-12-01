@@ -93,43 +93,12 @@ Bakend
 
 
 
-
 ## 페이지 소개
 
-<<<<<<< HEAD
-=======
-
-사용 기술
-
-Spring Boot
-
-Vuex
-
-Axios
-
-Mysql
-
-MyBatis
-
-
-
-페이지 소개
-
->>>>>>> 7f26dff18113b7eb95510aaa8290677ff44b7d25
->>>>>>> ![회원가입](https://user-images.githubusercontent.com/69693631/144235679-a9149370-b5ce-4198-824f-43e536627af5.png)
->>>>>>> ![로그인](https://user-images.githubusercontent.com/69693631/144235797-25e5beaf-8d74-4c52-9823-86bd0f1d2395.png)
->>>>>>> ![회원수정](https://user-images.githubusercontent.com/69693631/144235914-bda92203-716d-4868-9db8-b7b5e8290667.png)
->>>>>>> ![아파트검색](https://user-images.githubusercontent.com/69693631/144235883-8630afa1-8cbf-440f-b08a-af6610b66456.png)
->>>>>>> ![즐겨찾기](https://user-images.githubusercontent.com/69693631/144235956-1f544660-0d2e-497d-b4d7-329469a8a1c3.png)
->>>>>>> ![게시글](https://user-images.githubusercontent.com/69693631/144236836-36c53e76-c99c-4a22-bdf0-bc430b005b5a.png)
->>>>>>> ![댓글](https://user-images.githubusercontent.com/69693631/144236902-9f27111e-9f8e-4ca1-8ef0-322e123284f8.png)
->>>>>>>
->>>>>>> <<<<<<< HEAD
->>>>>>> =======
-
-
-
-
-
->>>>>>> 7f26dff18113b7eb95510aaa8290677ff44b7d25
-
+![회원가입](https://user-images.githubusercontent.com/69693631/144235679-a9149370-b5ce-4198-824f-43e536627af5.png)
+![로그인](https://user-images.githubusercontent.com/69693631/144235797-25e5beaf-8d74-4c52-9823-86bd0f1d2395.png)
+![회원수정](https://user-images.githubusercontent.com/69693631/144235914-bda92203-716d-4868-9db8-b7b5e8290667.png)
+![아파트검색](https://user-images.githubusercontent.com/69693631/144235883-8630afa1-8cbf-440f-b08a-af6610b66456.png)
+![즐겨찾기](https://user-images.githubusercontent.com/69693631/144235956-1f544660-0d2e-497d-b4d7-329469a8a1c3.png)
+![게시글](https://user-images.githubusercontent.com/69693631/144236836-36c53e76-c99c-4a22-bdf0-bc430b005b5a.png)
+![댓글](https://user-images.githubusercontent.com/69693631/144236902-9f27111e-9f8e-4ca1-8ef0-322e123284f8.png)
