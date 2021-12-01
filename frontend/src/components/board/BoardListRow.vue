@@ -2,7 +2,7 @@
     <div>
         <div v-if="check">
             <div @click="change">
-                <b-card :title="board.userId">
+                <b-card :title="board.userid">
                     <div>
                         <b-card-text>
                             {{ board.content }}
